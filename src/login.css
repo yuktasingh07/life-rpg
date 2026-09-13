@@ -1,0 +1,20 @@
+.login-screen { min-height: 100vh; display: grid; place-items: center; padding: 24px; background: radial-gradient(circle at 50% 20%, #3e2a65, transparent 55%), linear-gradient(135deg, #15132b, #302052); color: #f5f2ff; }
+.login-card { width: min(430px, 100%); padding: 42px 36px; border: 1px solid #625889; border-radius: 26px; background: rgba(33, 28, 60, .95); box-shadow: 0 22px 70px rgba(0,0,0,.35); text-align: center; }
+.login-mark { width: 72px; height: 72px; display: grid; place-items: center; margin: 0 auto 20px; border: 2px solid #ffd86b; border-radius: 22px; background: #211c3c; font-size: 34px; box-shadow: 0 0 28px rgba(255,216,107,.2); }
+.login-card h1 { margin: 4px 0 10px; color: #ffd86b; font-size: 38px; }
+.login-subtitle { color: #aaa3c7; line-height: 1.6; margin-bottom: 26px; }
+.login-card form { display: grid; gap: 10px; text-align: left; }
+.login-card label { color: #d9d3ef; font-size: 13px; font-weight: 700; }
+.login-card input { width: 100%; padding: 13px 14px; border: 1px solid #625889; border-radius: 12px; outline: none; background: #17142e; color: #fff; font: inherit; }
+.login-card input:focus { border-color: #ffd86b; box-shadow: 0 0 0 3px rgba(255,216,107,.12); }
+.login-card form button { margin-top: 8px; border: 0; border-radius: 12px; padding: 13px 18px; background: #ffd86b; color: #211c3c; font-weight: 800; cursor: pointer; }
+.login-card form button:hover { background: #ffe28b; }
+.login-note { display: block; margin-top: 22px; color: #8f88aa; line-height: 1.5; }
+.user-profile { display: grid; grid-template-columns: 34px 1fr; gap: 8px; align-items: center; margin: -18px 4px 22px; padding: 10px 8px; border: 1px solid #393354; border-radius: 14px; background: #211c3c; }
+.user-avatar { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: #ffd86b; color: #211c3c; font-weight: 900; }
+.user-profile strong, .user-profile small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; }
+.user-profile strong { color: #f5f2ff; font-size: 12px; }
+.user-profile small { color: #9992b5; font-size: 10px; }
+.user-profile button { grid-column: 1 / -1; border: 0; border-top: 1px solid #393354; padding-top: 8px; background: transparent; color: #aaa3c7; font-size: 11px; cursor: pointer; }
+.user-profile button:hover { color: #ffd86b; }
+@media (max-width: 650px) { .login-card { padding: 32px 22px; } .user-profile { margin-top: 0; } }
