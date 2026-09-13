@@ -17,15 +17,7 @@ Life RPG is a gamified productivity app that turns everyday tasks into RPG-style
 - 🎉 Level-up celebrations
 - 🎮 RPG-inspired interface
 
-## 🛠️ Built With
+## This is built for Web Hackathon
 
-- React
-- Vite
-- JavaScript
-- CSS
 
-## ▶️ Run Locally
 
-```bash
-npm install
-npm run dev
